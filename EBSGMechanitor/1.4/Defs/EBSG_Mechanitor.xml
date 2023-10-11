@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+        <defName>EBSG_Mechanitor</defName>
+        <label>mechanitor</label>
+        <displayPriorityInXenotype>489</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneDef Abstract="true" Name="EBSG_RemoteShieldBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateRemoteShield</prerequisite>
+        <exclusionTags>
+            <li>EBSG_RemoteShield</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_RemoteRepairBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateRemoteRepair</prerequisite>
+        <exclusionTags>
+            <li>EBSG_RemoteRepair</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_MechRepairBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <exclusionTags>
+            <li>EBSG_MechRepair</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_MechControlBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <exclusionTags>
+            <li>EBSG_MechControl</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_MechFormingBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <exclusionTags>
+            <li>EBSG_MechForming</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_EncodingSpeedBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <exclusionTags>
+            <li>EBSG_EncodingSpeed</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef Abstract="true" Name="EBSG_MechWorkSpeedBase">
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <exclusionTags>
+            <li>EBSG_MechWorkSpeed</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_InnateMechlink</defName>
+        <label>innate mechlink</label>
+        <iconPath>Things/Pawn/Humanlike/Apparel/Mechlink</iconPath>
+        <description>Carriers of this gene have a mechlink in their head from birth due to complicated and morally questionable genetic engineering.\n\nThis gene will not give any mechs at the start, just the link itself. Removing this gene will remove the mechlink.\n\nMost mechanitor genes that rely on this one dedicate a portion of the xenotype's brain to being able to make a specific mechanitor attribute better. The bonuses are multipliers, meaning they grow stronger as the pawn becomes better with that thing, whether through implants, other genes, or skills. The penalties are offsets, which means they can usually be compensated for more easily.</description>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <biostatMet>-2</biostatMet>
+        <customEffectDescriptions>
+			<li>Gives a mechlink.</li>
+		</customEffectDescriptions>
+        <modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffsToBodyParts>
+					<li>
+						<hediff>MechlinkImplant</hediff>
+						<bodyparts>
+							<li>Brain</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_InnateRemoteShield</defName>
+        <label>innate remote shielder</label>
+        <iconPath>UI/Gizmos/ShieldMech</iconPath>
+        <description>Carriers of this gene have a remote shielder implant in their head from birth due to weird genetic engineering.\n\nRemoving this gene will remove the implant.</description>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <biostatMet>-2</biostatMet>
+        <customEffectDescriptions>
+			<li>Gives a remote shielder implant.</li>
+		</customEffectDescriptions>
+        <modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffsToBodyParts>
+					<li>
+						<hediff>RemoteShielderImplant</hediff>
+						<bodyparts>
+							<li>Brain</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>EBSG_InnateRemoteRepair</defName>
+        <label>innate remote repairer</label>
+        <iconPath>UI/Gizmos/RemoteRepair</iconPath>
+        <description>Carriers of this gene have a remote repair implant in their head from birth due to weird genetic engineering.\n\nRemoving this gene will remove the implant.</description>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <displayCategory>EBSG_Mechanitor</displayCategory>
+        <prerequisite>EBSG_InnateMechlink</prerequisite>
+        <biostatMet>-2</biostatMet>
+        <customEffectDescriptions>
+			<li>Gives a remote repairer implant.</li>
+		</customEffectDescriptions>
+        <modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffsToBodyParts>
+					<li>
+						<hediff>RemoteRepairerImplant</hediff>
+						<bodyparts>
+							<li>Brain</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+    </GeneDef>
+</Defs>

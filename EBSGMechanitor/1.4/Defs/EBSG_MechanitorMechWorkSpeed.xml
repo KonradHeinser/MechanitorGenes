@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_TerribleMechWorkSpeed</defName>
+        <label>very weak mech control</label>
+        <iconPath>EBSG/Gene_TerribleMechWorkSpeed</iconPath>
+        <description>Carriers of this gene have extreme issues repairing damaged mechanoids, requiring more time to fix damage.</description>
+        <displayOrderInCategory>71</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>0.33</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_BadMechWorkSpeed</defName>
+        <label>weak mech control</label>
+        <iconPath>EBSG/Gene_BadMechWorkSpeed</iconPath>
+        <description>Carriers of this gene have issues repairing damaged mechanoids, requiring more time to fix damage.</description>
+        <displayOrderInCategory>72</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>0.67</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_MinorMechWorkSpeed</defName>
+        <label>somewhat fast mech work speed</label>
+        <iconPath>EBSG/Gene_MechWorkSpeed</iconPath>
+        <description>Carriers of this gene have slightly improved mech work speed, at the cost of their own ability to work quickly.</description>
+        <displayOrderInCategory>73</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>1.25</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_MechWorkSpeed</defName>
+        <label>fast mech work speed</label>
+        <iconPath>EBSG/Gene_MechWorkSpeed</iconPath>
+        <description>Carriers of this gene have improved mech work speed, at the cost of their own ability to work quickly.</description>
+        <displayOrderInCategory>74</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>1.50</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_MajorMechWorkSpeed</defName>
+        <label>very fast mech work speed</label>
+        <iconPath>EBSG/Gene_MechWorkSpeed</iconPath>
+        <description>Carriers of this gene have significantly improved mech work speed, at the cost of their own ability to work quickly.</description>
+        <displayOrderInCategory>75</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>1.75</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_ExtremeMechWorkSpeed</defName>
+        <label>extremely fast mech work speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechWorkSpeed</iconPath>
+        <description>Carriers of this gene have extremely improved mech work speed, at the cost of their own ability to work quickly.</description>
+        <displayOrderInCategory>76</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>2.00</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.4</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_SuperMechWorkSpeed</defName>
+        <label>super fast mech work speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechWorkSpeed</iconPath>
+        <description>Carriers of this gene have super improved mech work speed, at the cost of their own ability to work quickly.</description>
+        <displayOrderInCategory>77</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>2.25</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.5</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechWorkSpeedBase">
+        <defName>EBSG_HyperMechWorkSpeed</defName>
+        <label>hyper fast mech work speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechWorkSpeed</iconPath>
+        <description>Carriers of this gene can make their mechs work unbelievably quickly.</description>
+        <displayOrderInCategory>78</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <WorkSpeedGlobalOffsetMech>2.50</WorkSpeedGlobalOffsetMech>
+        </statFactors>
+        <statOffsets>
+            <WorkSpeedGlobal>-0.6</WorkSpeedGlobal>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

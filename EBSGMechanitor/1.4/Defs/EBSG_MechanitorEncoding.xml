@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_TerribleEncodingSpeed</defName>
+        <label>very weak mech control</label>
+        <iconPath>EBSG/Gene_TerribleEncodingSpeed</iconPath>
+        <description>Carriers of this gene have extreme issues encoding new subcores to use in mechanoids.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>61</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>0.33</SubcoreEncodingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_BadEncodingSpeed</defName>
+        <label>weak mech control</label>
+        <iconPath>EBSG/Gene_BadEncodingSpeed</iconPath>
+        <description>Carriers of this gene have issues encoding new subcores to use in mechanoids.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>62</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>0.67</SubcoreEncodingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_MinorEncodingSpeed</defName>
+        <label>somewhat fast encoding speed</label>
+        <iconPath>EBSG/Gene_EncodingSpeed</iconPath>
+        <description>Carriers of this gene have slightly improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>63</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>1.25</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.1</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.1</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_EncodingSpeed</defName>
+        <label>fast encoding speed</label>
+        <iconPath>EBSG/Gene_EncodingSpeed</iconPath>
+        <description>Carriers of this gene have improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>64</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <SubcoreEncodingSpeed>1.50</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.2</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.2</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_MajorEncodingSpeed</defName>
+        <label>very fast encoding speed</label>
+        <iconPath>EBSG/Gene_EncodingSpeed</iconPath>
+        <description>Carriers of this gene have significantly improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>65</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <SubcoreEncodingSpeed>1.75</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.3</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.3</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_ExtremeEncodingSpeed</defName>
+        <label>extremely fast encoding speed</label>
+        <iconPath>EBSG/Gene_ExtremeEncodingSpeed</iconPath>
+        <description>Carriers of this gene have extremely improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>66</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <SubcoreEncodingSpeed>2.00</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.4</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.4</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_SuperEncodingSpeed</defName>
+        <label>super fast encoding speed</label>
+        <iconPath>EBSG/Gene_ExtremeEncodingSpeed</iconPath>
+        <description>Carriers of this gene have super improved encoding speed, decreasing the amount of time they need to take to craft new subcores.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>67</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <SubcoreEncodingSpeed>2.25</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.5</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.5</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_EncodingSpeedBase">
+        <defName>EBSG_HyperEncodingSpeed</defName>
+        <label>hyper fast encoding speed</label>
+        <iconPath>EBSG/Gene_ExtremeEncodingSpeed</iconPath>
+        <description>Carriers of this gene can encode subcores unbelievably quickly.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
+        <displayOrderInCategory>68</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <SubcoreEncodingSpeed>2.50</SubcoreEncodingSpeed>
+        </statFactors>
+        <statOffsets>
+            <MeditationFocusGain>-0.6</MeditationFocusGain>
+            <ResearchSpeedFactor>-0.6</ResearchSpeedFactor>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

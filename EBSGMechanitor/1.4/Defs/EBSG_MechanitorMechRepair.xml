@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_TerribleMechRepair</defName>
+        <label>very weak mech control</label>
+        <iconPath>EBSG/Gene_TerribleMechRepair</iconPath>
+        <description>Carriers of this gene have extreme issues repairing damaged mechanoids, requiring more time to fix damage.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>0.33</MechRepairSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_BadMechRepair</defName>
+        <label>weak mech control</label>
+        <iconPath>EBSG/Gene_BadMechRepair</iconPath>
+        <description>Carriers of this gene have issues repairing damaged mechanoids, requiring more time to fix damage.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>0.67</MechRepairSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_MinorMechRepair</defName>
+        <label>somewhat fast mech repair speed</label>
+        <iconPath>EBSG/Gene_MechRepair</iconPath>
+        <description>Carriers of this gene have slightly improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>1.25</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.1</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.1</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_MechRepair</defName>
+        <label>fast mech repair speed</label>
+        <iconPath>EBSG/Gene_MechRepair</iconPath>
+        <description>Carriers of this gene have improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechRepairSpeed>1.50</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.2</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.2</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_MajorMechRepair</defName>
+        <label>very fast mech repair speed</label>
+        <iconPath>EBSG/Gene_MechRepair</iconPath>
+        <description>Carriers of this gene have significantly improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>35</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRepairSpeed>1.75</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.3</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.3</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_ExtremeMechRepair</defName>
+        <label>extremely fast mech repair speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechRepair</iconPath>
+        <description>Carriers of this gene have extremely improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>36</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRepairSpeed>2.00</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.4</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.4</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_SuperMechRepair</defName>
+        <label>super fast mech repair speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechRepair</iconPath>
+        <description>Carriers of this gene have super improved mech repair speed, decreasing the amount of time they need to take to repair a mech.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>37</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechRepairSpeed>2.25</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.5</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.5</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechRepairBase">
+        <defName>EBSG_HyperMechRepair</defName>
+        <label>hyper fast mech repair speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechRepair</iconPath>
+        <description>Carriers of this gene can repair mechs unbelievably quickly.\n\nThis will not change the total amount of energy required for repairing.</description>
+        <displayOrderInCategory>38</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechRepairSpeed>2.50</MechRepairSpeed>
+        </statFactors>
+        <statOffsets>
+            <MedicalOperationSpeed>-0.6</MedicalOperationSpeed>
+            <MedicalTendSpeed>-0.6</MedicalTendSpeed>
+        </statOffsets>
+    </GeneDef>
+</Defs>
