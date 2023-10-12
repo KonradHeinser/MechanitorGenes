@@ -2,7 +2,7 @@
 <Defs>
     <GeneDef ParentName="EBSG_MechWorkSpeedBase">
         <defName>EBSG_TerribleMechWorkSpeed</defName>
-        <label>very weak mech control</label>
+        <label>very slow mech work speed</label>
         <iconPath>EBSG/Gene_TerribleMechWorkSpeed</iconPath>
         <description>Carriers of this gene have extreme issues repairing damaged mechanoids, requiring more time to fix damage.</description>
         <displayOrderInCategory>71</displayOrderInCategory>
@@ -14,7 +14,7 @@
 
     <GeneDef ParentName="EBSG_MechWorkSpeedBase">
         <defName>EBSG_BadMechWorkSpeed</defName>
-        <label>weak mech control</label>
+        <label>slow mech work speed</label>
         <iconPath>EBSG/Gene_BadMechWorkSpeed</iconPath>
         <description>Carriers of this gene have issues repairing damaged mechanoids, requiring more time to fix damage.</description>
         <displayOrderInCategory>72</displayOrderInCategory>

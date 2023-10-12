@@ -2,7 +2,7 @@
 <Defs>
     <GeneDef ParentName="EBSG_MechRepairBase">
         <defName>EBSG_TerribleMechRepair</defName>
-        <label>very weak mech control</label>
+        <label>very weak mech repair</label>
         <iconPath>EBSG/Gene_TerribleMechRepair</iconPath>
         <description>Carriers of this gene have extreme issues repairing damaged mechanoids, requiring more time to fix damage.\n\nThis will not change the total amount of energy required for repairing.</description>
         <displayOrderInCategory>31</displayOrderInCategory>
@@ -14,7 +14,7 @@
 
     <GeneDef ParentName="EBSG_MechRepairBase">
         <defName>EBSG_BadMechRepair</defName>
-        <label>weak mech control</label>
+        <label>weak mech repair</label>
         <iconPath>EBSG/Gene_BadMechRepair</iconPath>
         <description>Carriers of this gene have issues repairing damaged mechanoids, requiring more time to fix damage.\n\nThis will not change the total amount of energy required for repairing.</description>
         <displayOrderInCategory>32</displayOrderInCategory>

@@ -2,7 +2,7 @@
 <Defs>
     <GeneDef ParentName="EBSG_EncodingSpeedBase">
         <defName>EBSG_TerribleEncodingSpeed</defName>
-        <label>very weak mech control</label>
+        <label>very slow encoding speed</label>
         <iconPath>EBSG/Gene_TerribleEncodingSpeed</iconPath>
         <description>Carriers of this gene have extreme issues encoding new subcores to use in mechanoids.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
         <displayOrderInCategory>61</displayOrderInCategory>
@@ -14,7 +14,7 @@
 
     <GeneDef ParentName="EBSG_EncodingSpeedBase">
         <defName>EBSG_BadEncodingSpeed</defName>
-        <label>weak mech control</label>
+        <label>slow encoding speed</label>
         <iconPath>EBSG/Gene_BadEncodingSpeed</iconPath>
         <description>Carriers of this gene have issues encoding new subcores to use in mechanoids.\n\nThis normally only impacts the encoding rate of basic subcores, though other mods that add craftable subcores may utilize this speed as well.</description>
         <displayOrderInCategory>62</displayOrderInCategory>

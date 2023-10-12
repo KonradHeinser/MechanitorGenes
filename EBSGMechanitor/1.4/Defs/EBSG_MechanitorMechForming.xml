@@ -2,7 +2,7 @@
 <Defs>
     <GeneDef ParentName="EBSG_MechFormingBase">
         <defName>EBSG_TerribleMechForming</defName>
-        <label>very weak mech control</label>
+        <label>very slow mech gestation speed</label>
         <iconPath>EBSG/Gene_TerribleMechForming</iconPath>
         <description>Carriers of this gene have extreme issues directing mechanites used in mechanoid creation, increasing the amount of time it takes to gestate a new mechanoid.</description>
         <displayOrderInCategory>51</displayOrderInCategory>
@@ -14,7 +14,7 @@
 
     <GeneDef ParentName="EBSG_MechFormingBase">
         <defName>EBSG_BadMechForming</defName>
-        <label>weak mech control</label>
+        <label>slow mech gestation speed</label>
         <iconPath>EBSG/Gene_BadMechForming</iconPath>
         <description>Carriers of this gene have issues directing mechanites used in mechanoid creation, increasing the amount of time it takes to gestate a new mechanoid.</description>
         <displayOrderInCategory>52</displayOrderInCategory>
