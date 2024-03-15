@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_TerribleMechControl</defName>
+        <label>very weak mech control</label>
+        <iconPath>EBSG/Gene_TerribleMechControl</iconPath>
+        <description>Carriers of this gene have extreme issues controlling large numbers of mechs at the same time.</description>
+        <displayOrderInCategory>41</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <MechBandwidth>0.33</MechBandwidth>
+            <MechControlGroups>-1</MechControlGroups>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_BadMechControl</defName>
+        <label>weak mech control</label>
+        <iconPath>EBSG/Gene_BadMechControl</iconPath>
+        <description>Carriers of this gene have issues controlling large numbers of mechs at the same time.</description>
+        <displayOrderInCategory>42</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechBandwidth>0.67</MechBandwidth>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_MinorMechControl</defName>
+        <label>somewhat strong mech control</label>
+        <iconPath>EBSG/Gene_MechControl</iconPath>
+        <description>Carriers of this gene have slightly improved mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>43</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MechBandwidth>1.25</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.1</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.1</SmeltingSpeed>
+            <CleaningSpeed>-0.1</CleaningSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_MechControl</defName>
+        <label>strong mech control</label>
+        <iconPath>EBSG/Gene_MechControl</iconPath>
+        <description>Carriers of this gene have improved mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>44</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechBandwidth>1.50</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.2</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.2</SmeltingSpeed>
+            <CleaningSpeed>-0.2</CleaningSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_MajorMechControl</defName>
+        <label>very strong mech control</label>
+        <iconPath>EBSG/Gene_MechControl</iconPath>
+        <description>Carriers of this gene have significantly improved mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>45</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechBandwidth>1.75</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.3</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.3</SmeltingSpeed>
+            <CleaningSpeed>-0.3</CleaningSpeed>
+            <MechControlGroups>1</MechControlGroups>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_ExtremeMechControl</defName>
+        <label>extremely strong mech control</label>
+        <iconPath>EBSG/Gene_ExtremeMechControl</iconPath>
+        <description>Carriers of this gene have extremely improved mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>46</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechBandwidth>2.00</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.4</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.4</SmeltingSpeed>
+            <CleaningSpeed>-0.4</CleaningSpeed>
+            <MechControlGroups>1</MechControlGroups>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_SuperMechControl</defName>
+        <label>super strong mech control</label>
+        <iconPath>EBSG/Gene_ExtremeMechControl</iconPath>
+        <description>Carriers of this gene have super improved mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>47</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechBandwidth>2.25</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.5</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.5</SmeltingSpeed>
+            <CleaningSpeed>-0.5</CleaningSpeed>
+            <MechControlGroups>2</MechControlGroups>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechControlBase">
+        <defName>EBSG_HyperMechControl</defName>
+        <label>hyper strong mech control</label>
+        <iconPath>EBSG/Gene_ExtremeMechControl</iconPath>
+        <description>Carriers of this gene have unbelievably strong mech control capabilities, allowing them to control more mechs at the same time.</description>
+        <displayOrderInCategory>48</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechBandwidth>2.50</MechBandwidth>
+        </statFactors>
+        <statOffsets>
+            <GeneralLaborSpeed>-0.6</GeneralLaborSpeed>
+            <SmeltingSpeed>-0.6</SmeltingSpeed>
+            <CleaningSpeed>-0.6</CleaningSpeed>
+            <MechControlGroups>2</MechControlGroups>
+        </statOffsets>
+    </GeneDef>
+</Defs>

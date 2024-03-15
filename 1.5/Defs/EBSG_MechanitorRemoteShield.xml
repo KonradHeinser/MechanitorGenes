@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_TerribleRemoteShield</defName>
+        <label>very weak remote shielding</label>
+        <iconPath>EBSG/Gene_TerribleRemoteShield</iconPath>
+        <description>Carriers of this gene have extreme issues utilizing their innate remote shielder implant.</description>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>0.33</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>0.33</MechRemoteShieldEnergy>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_BadRemoteShield</defName>
+        <label>weak remote shielding</label>
+        <iconPath>EBSG/Gene_BadRemoteShield</iconPath>
+        <description>Carriers of this gene have issues utilizing their innate remote shielder implant.</description>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>0.67</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>0.67</MechRemoteShieldEnergy>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_MinorRemoteShield</defName>
+        <label>somewhat strong remote shielding</label>
+        <iconPath>EBSG/Gene_RemoteShield</iconPath>
+        <description>Carriers of this gene have slightly enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>1.25</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>1.25</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_RemoteShield</defName>
+        <label>strong remote shielding</label>
+        <iconPath>EBSG/Gene_RemoteShield</iconPath>
+        <description>Carriers of this gene have enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechRemoteShieldDistance>1.50</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>1.50</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.2</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_MajorRemoteShield</defName>
+        <label>very strong remote shielding</label>
+        <iconPath>EBSG/Gene_RemoteShield</iconPath>
+        <description>Carriers of this gene have significantly enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRemoteShieldDistance>1.75</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>1.75</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_ExtremeRemoteShield</defName>
+        <label>extremely strong remote shielding</label>
+        <iconPath>EBSG/Gene_ExtremeRemoteShield</iconPath>
+        <description>Carriers of this gene have extremely enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>16</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechRemoteShieldDistance>2.00</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>2.00</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.4</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_SuperRemoteShield</defName>
+        <label>super strong remote shielding</label>
+        <iconPath>EBSG/Gene_ExtremeRemoteShield</iconPath>
+        <description>Carriers of this gene have super enhanced remote shielding capabilities.</description>
+        <displayOrderInCategory>17</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechRemoteShieldDistance>2.25</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>2.25</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.5</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_RemoteShieldBase">
+        <defName>EBSG_HyperRemoteShield</defName>
+        <label>hyper strong remote shielding</label>
+        <iconPath>EBSG/Gene_ExtremeRemoteShield</iconPath>
+        <description>Carriers of this gene have unbelievably strong remote shielding capabilities.</description>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechRemoteShieldDistance>2.50</MechRemoteShieldDistance>
+            <MechRemoteShieldEnergy>2.50</MechRemoteShieldEnergy>
+        </statFactors>
+        <statOffsets>
+            <MoveSpeed>-0.6</MoveSpeed>
+        </statOffsets>
+    </GeneDef>
+</Defs>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_TerribleMechForming</defName>
+        <label>very slow mech gestation speed</label>
+        <iconPath>EBSG/Gene_TerribleMechForming</iconPath>
+        <description>Carriers of this gene have extreme issues directing mechanites used in mechanoid creation, increasing the amount of time it takes to gestate a new mechanoid.</description>
+        <displayOrderInCategory>51</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>0.33</MechFormingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_BadMechForming</defName>
+        <label>slow mech gestation speed</label>
+        <iconPath>EBSG/Gene_BadMechForming</iconPath>
+        <description>Carriers of this gene have issues directing mechanites used in mechanoid creation, increasing the amount of time it takes to gestate a new mechanoid.</description>
+        <displayOrderInCategory>52</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>0.67</MechFormingSpeed>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_MinorMechForming</defName>
+        <label>somewhat fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_MechForming</iconPath>
+        <description>Carriers of this gene have slightly improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>53</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>1.25</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.1</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_MechForming</defName>
+        <label>fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_MechForming</iconPath>
+        <description>Carriers of this gene have improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>54</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <statFactors>
+            <MechFormingSpeed>1.50</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.2</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_MajorMechForming</defName>
+        <label>very fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_MechForming</iconPath>
+        <description>Carriers of this gene have significantly improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>55</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechFormingSpeed>1.75</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.3</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_ExtremeMechForming</defName>
+        <label>extremely fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechForming</iconPath>
+        <description>Carriers of this gene have extremely improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>56</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MechFormingSpeed>2.00</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.4</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_SuperMechForming</defName>
+        <label>super fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechForming</iconPath>
+        <description>Carriers of this gene have super improved mech gestation speed, decreasing the amount of time it takes to create new mechanoids.</description>
+        <displayOrderInCategory>57</displayOrderInCategory>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechFormingSpeed>2.25</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.5</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef ParentName="EBSG_MechFormingBase">
+        <defName>EBSG_HyperMechForming</defName>
+        <label>hyper fast mech gestation speed</label>
+        <iconPath>EBSG/Gene_ExtremeMechForming</iconPath>
+        <description>Carriers of this gene can create new mechanoids unbelievably quickly.</description>
+        <displayOrderInCategory>58</displayOrderInCategory>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <statFactors>
+            <MechFormingSpeed>2.50</MechFormingSpeed>
+        </statFactors>
+        <statOffsets>
+            <GlobalLearningFactor>-0.6</GlobalLearningFactor>
+        </statOffsets>
+    </GeneDef>
+</Defs>
