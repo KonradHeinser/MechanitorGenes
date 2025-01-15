@@ -19,4 +19,12 @@
             </operations>
         </match>
     </Operation>
+
+    <Operation Class="EBSGFramework.PatchOperationSetting">
+        <setting>noInnateMechlinkPrereq</setting>
+        <active Class="PatchOperationRemove">
+            <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateMechlink"]</xpath>
+        </active>
+    </Operation>
+
 </Patch>
