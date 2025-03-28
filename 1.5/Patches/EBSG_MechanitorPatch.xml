@@ -27,4 +27,17 @@
         </active>
     </Operation>
 
+    <Operation Class="EBSGFramework.PatchOperationSetting">
+        <setting>noInnateRemotePrereqs</setting>
+        <active Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteShield"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteRepair"]</xpath>
+                </li>
+            </operations>
+        </active>
+    </Operation>
 </Patch>
