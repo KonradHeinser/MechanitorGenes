@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch><!--Does Alpha Genes exist in the modlist-->
+    <Operation Class="PatchOperationConditional"> 
+        <xpath>Defs/GeneCategoryDef[defName="AG_Mechanitor"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/GeneCategoryDef[defName="EBSG_Mechanitor"]/label</xpath>
+                    <value><label>EBSG - Mechanitor</label></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/VREAndroids.AndroidConvertableGenesDef/genesBlacklist</xpath>
+                    <value><li>EBSG_InnateMechlink</li></value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/AlphaGenes.WretchBlacklistDef/blackListedGenes</xpath>
+                    <value><li>EBSG_InnateMechlink</li></value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="EBSGFramework.PatchOperationSetting">
+        <setting>noInnateMechlinkPrereq</setting>
+        <active Class="PatchOperationRemove">
+            <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateMechlink"]</xpath>
+        </active>
+    </Operation>
+
+    <Operation Class="EBSGFramework.PatchOperationSetting">
+        <setting>noInnateRemotePrereqs</setting>
+        <active Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteShield"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/GeneDef/prerequisite[text()="EBSG_InnateRemoteRepair"]</xpath>
+                </li>
+            </operations>
+        </active>
+    </Operation>
+</Patch>
