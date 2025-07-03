@@ -141,4 +141,12 @@
 			</li>
 		</modExtensions>
     </GeneDef>
+
+    <VREAndroids.AndroidConvertableGenesDef MayRequire="vanillaracesexpanded.android">
+		<defName>EBSG_Mechanitor</defName>
+		<genesBlacklist>
+            <li>EBSG_InnateMechlink</li>
+        </genesBlacklist>
+	</VREAndroids.AndroidConvertableGenesDef>
+
 </Defs>
