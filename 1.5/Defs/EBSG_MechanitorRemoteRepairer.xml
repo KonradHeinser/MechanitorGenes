@@ -35,7 +35,7 @@
             <MechRemoteRepairDistance>1.25</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.1</MoveSpeed>
+            <MoveSpeed>-0.05</MoveSpeed>
         </statOffsets>
     </GeneDef>
 
@@ -50,7 +50,7 @@
             <MechRemoteRepairDistance>1.50</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.2</MoveSpeed>
+            <MoveSpeed>-0.1</MoveSpeed>
         </statOffsets>
     </GeneDef>
 
@@ -66,7 +66,7 @@
             <MechRemoteRepairDistance>1.75</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.3</MoveSpeed>
+            <MoveSpeed>-0.15</MoveSpeed>
         </statOffsets>
     </GeneDef>
 
@@ -82,7 +82,7 @@
             <MechRemoteRepairDistance>2.00</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.4</MoveSpeed>
+            <MoveSpeed>-0.2</MoveSpeed>
         </statOffsets>
     </GeneDef>
 
@@ -98,7 +98,7 @@
             <MechRemoteRepairDistance>2.25</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.5</MoveSpeed>
+            <MoveSpeed>-0.25</MoveSpeed>
         </statOffsets>
     </GeneDef>
 
@@ -114,7 +114,7 @@
             <MechRemoteRepairDistance>2.50</MechRemoteRepairDistance>
         </statFactors>
         <statOffsets>
-            <MoveSpeed>-0.6</MoveSpeed>
+            <MoveSpeed>-0.3</MoveSpeed>
         </statOffsets>
     </GeneDef>
 </Defs>
